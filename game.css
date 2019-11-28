@@ -24,7 +24,7 @@ h1{color:white;
 text-align: center;
 line-height:1.1;
 font-weight: normal;
-background:"#191970";
+background:"#00BFFF";
 margin:0;
 padding: 20px 0 ;
 text-transform: uppercase;
@@ -41,7 +41,7 @@ button{
    font-weight: 700;
    letter-spacing: 1px;
    font-size: inherit;
-   color:#800080;
+   color:#8e24a3;
    transition: all 0.6s ;
    outline: none;
 }
