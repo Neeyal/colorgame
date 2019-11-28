@@ -24,7 +24,7 @@ h1{color:white;
 text-align: center;
 line-height:1.1;
 font-weight: normal;
-background: radial-gradient( #aa076b , #61045f);
+background:"#191970";
 margin:0;
 padding: 20px 0 ;
 text-transform: uppercase;
@@ -58,4 +58,9 @@ color:black;
 .selected{
   background: #51e6da;
   font-weight: bold;
+}
+.footer{
+  margin-top: 500px;
+  text-align: center;
+  color: darkgray;
 }

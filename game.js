@@ -35,11 +35,11 @@ reset();
       if(clickedColor === pickedColor){
       messageDisplay.textContent="Correct!";
       changeColors(clickedColor);
-      resetButton.textContent="Play Again!"
       h1.style.background=clickedColor;
+      resetButton.textContent="Play Again!";
       }else{
       this.style.background="#232323";
-      messageDisplay.textContent="Try Again"
+      messageDisplay.textContent="Try Again";
       }
     });
    }
@@ -65,7 +65,7 @@ reset();
       }
       squares[i].style.background=colors[i];
       } 
-      h1.style.background="radial-gradient( #aa076b , #61045f);";
+      h1.style.background="#191970";
       }
       resetButton.addEventListener("click", function(){
       reset();
